@@ -78,7 +78,7 @@ To use LMS, import the necessary modules from lightning/messageService:
 
 ## Example Components
 **Publisher Component**
-The publisher component sends messages to a specified channel when an action occurs (e.g., input value changes).
+- The publisher component sends messages to a specified channel when an action occurs (e.g., input value changes).
 
 **PublisherComponent.js**
 ```js
@@ -101,7 +101,7 @@ export default class PublisherComponent extends LightningElement {
 ```
 
 **Subscriber Component**
-The subscriber component listens for messages on the specified channel and reacts accordingly.
+- The subscriber component listens for messages on the specified channel and reacts accordingly.
 
 **SubscriberComponent.js**
 ```js
@@ -166,5 +166,5 @@ sfdx force:source:retrieve -m LightningMessageChannel:YourChannelName
 
 **Delete**:
 ```
-sfdx force:source:delete -p ./force-app/main/default/messageChannels/InputValueChange.messageChannel-meta.xml
+sfdx force:source:delete -p ./force-app/main/default/messageChannels/YourChannelName.messageChannel-meta.xml
 ```
