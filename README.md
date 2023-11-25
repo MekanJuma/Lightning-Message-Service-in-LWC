@@ -1,5 +1,7 @@
 # Lightning Message Service (LMS) in Lightning Web Components (LWC)
 
+![LMS](https://github.com/MekanJuma/Lightning-Message-Service-in-LWC/blob/main/LMS.PNG)
+
 ## Table of Contents
 - [Overview](#overview)
 - [Creating a Custom Message Channel](#creating-a-custom-message-channel)
